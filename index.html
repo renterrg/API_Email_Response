@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BucketTechnologiesApplication</title>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	
+	<form id="myForm">
+		<label>Position: <input type="text" name="Position"></label>
+		<label>PortfolioUrl: <input type="url" name="PortfolioUrl"></label>
+		<label>ResumeUrl: <input type="url" name="ResumeUrl"></label>
+
+		<label class="col">CoverPageText: <textarea type="text" name="CoverPageText"></textarea></label>
+		<label class="col">Education: <textarea type="text" name="Education"></textarea></label>
+		<label class="col">Experience: <textarea type="text" name="Experience"></textarea></label>
+		<label class="col">AdditionalText: <textarea type="text" name="AdditionalText"></textarea></label>
+
+		<input type="submit" value="Submit">
+	</form>
+
+<script
+	type="text/javascript"
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"
+></script>
+
+
+<!-- https://github.com/citnvillareal/serializeObject/blob/master/js/jquery.serializeObject.js  -->
+<script type="text/javascript" src="jquery.serializeObject.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

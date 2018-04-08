@@ -1,0 +1,24 @@
+body{
+  font-size: 14px;
+}
+
+label { 
+  display: flex;
+  margin: 2em 0;
+  align-items: flex-start;
+  margin-top: flex-start;
+}
+
+label.col {
+  flex-direction: column;
+}
+
+input {
+  margin-left: 1em;
+}
+
+textarea {
+  flex: 1 0 auto;
+  min-width: 50em;
+  min-height: 30em;
+}
