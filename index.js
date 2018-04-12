@@ -15,7 +15,7 @@
     jsonString = textToHTML(jsonString);
     console.info('onFormSubmit() | formatted json string:', jsonString);
 
-    // sendPostRequest(jsonString);
+    sendPostRequest(jsonString);
     sendGetRequest(jsonString);
   }
 
